@@ -1,79 +1,59 @@
 * {
-    font-size: helvetica;
-}
-
-h1 {
+    font-family: Helvetica;
+  }
+  
+  h1 {
     text-align: center;
-}
-
-#form {
-    margin: 0 1rem 1.5rem;
-}
-
-
-#form>input {
-    padding: 0.3rem;
-    margin-right: 0.5rem;
-    border-radius: 5px;
-    border: solid #ccc;
-
-}
-
-#form>button {
-    padding: 0.3rem 1rem;
-    background-color: #2196f3;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.kanban {
+  }
+  
+  .kanban {
     display: flex;
     justify-content: space-around;
     margin-top: 1.5rem;
-}
-
-.colum {
+  }
+  
+  .column {
     width: 30%;
     background-color: #eee;
     border-radius: 10px;
-    padding: 0.5em;
-
-}
-
-.task {
+    padding: 0.5rem;
+  }
+  
+  .tasks {
     list-style: none;
     margin: 0;
     padding: 1rem;
     border: 2px dashed #ccc;
-    border-radius: 8px;
+    border-radius: 5px;
     min-height: 100px;
-
-}
-
-.tasks li {
+  }
+  
+  .tasks li {
     background-color: #fff;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
     cursor: move;
-   
-}
-
-
-.task li.dragging {
+  }
+  
+  .tasks li.dragging {
     opacity: 0.5;
-
-}
-
-.tasks li:hover {
+  }
+  
+  .tasks li:hover {
     background-color: #f5f5f5;
-}
-
-
-
-#add-task-form input[type="text"] {
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #add-task-form {
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  #add-task-form input[type="text"] {
     padding: 0.3rem;
     margin-right: 0.5rem;
     border-radius: 3px;
